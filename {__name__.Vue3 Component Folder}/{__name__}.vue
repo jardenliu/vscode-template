@@ -1,10 +1,15 @@
 <template>
-  <div>
-    {__pascalCaseName__}
-  </div>
+  <div>{__pascalCaseName__}</div>
 </template>
 
 <script lang="ts">
+/**
+ * @File   : {__name__}.vue
+ * @Author : {__author__} ({__email__})
+ * @Link   : {__link__}
+ * @Date   : {__date__}
+ */
+
 import { Options, Vue } from 'vue-class-component'
 
 @Options({
