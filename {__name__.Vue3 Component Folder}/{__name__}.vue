@@ -12,13 +12,15 @@
 
 import { Options, Vue } from 'vue-class-component'
 
+class Props {
+    //
+}
+
 @Options({
-    props: {
-    },
     components:{
     },
 })
-export default class {__pascalCaseName__} extends Vue {}
+export default class {__pascalCaseName__} extends Vue.with(Props) {}
 </script>
 
 <style lang="stylus" scoped src="./{__name__}.styl"></style>
