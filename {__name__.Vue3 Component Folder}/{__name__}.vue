@@ -1,5 +1,5 @@
 <template>
-  <div>{__pascalCaseName__}</div>
+  <div class="{__kebabCaseName__}">{__pascalCaseName__}</div>
 </template>
 
 <script lang="ts">
